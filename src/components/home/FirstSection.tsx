@@ -4,7 +4,7 @@ import { getStaticURL } from "@/untils/constants";
 
 export const FirstSection = () => {
     return (
-        <div className="pt-[106px] bg-[#fff7f7] relative">
+        <div className="pt-[106px]bg-[#fff7f7] relative">
             <div className="flex flex-col items-center relative">
                 <div className="flex flex-col text-center italic text-[48px] font-libreBodoni font-bold text-black200 mt-[121px] mb-[107px] leading-[120%] z-50">
                     Chúng Tôi Ở Đây 

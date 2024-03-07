@@ -10,7 +10,7 @@ const Header = () => {
   const [isHover, setIsHover] = useState<boolean>();
   
   return (
-    <div className="fixed top-0 left-0 right-0 z-[100] flex justify-between items-center h-[106px] px-[50px] bg-[#fff7f7] border-b border-[#FFE8EC]">
+    <div className="sticky top-0 left-0 right-0 z-[100] flex justify-between items-center h-[106px] px-[50px] bg-[#fff7f7] border-b border-[#FFE8EC]">
       <Link
         href={"/"}
       >

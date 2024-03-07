@@ -24,7 +24,7 @@ export const SeventhSection = () => {
                     ))}
                 </div>
                 <ButtonPrimary 
-                    url="/coming-soon"
+                    url="/"
                     title="Xem tất cả"
                     rightIcon={<ArrowRightIcon />}
                 />
