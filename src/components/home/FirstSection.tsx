@@ -4,7 +4,7 @@ import { getStaticURL } from "@/untils/constants";
 
 export const FirstSection = () => {
     return (
-        <div className="bg-[#fff7f7] relative">
+        <div className="pt-[106px] bg-[#fff7f7] relative">
             <div className="flex flex-col items-center relative">
                 <div className="flex flex-col text-center italic text-[48px] font-libreBodoni font-bold text-black200 mt-[121px] mb-[107px] leading-[120%] z-50">
                     Chúng Tôi Ở Đây 
@@ -14,7 +14,7 @@ export const FirstSection = () => {
                 </div>
                 <div className="absolute left-1/2 -translate-x-1/2 top-[71px]">
                     <img
-                        src={`${getStaticURL()}/assets/images/frame.svg`}
+                        src={`/assets/images/frame.svg`}
                         alt="Leaf"
                     />
                 </div>
@@ -22,14 +22,14 @@ export const FirstSection = () => {
             <div className="flex flex-col gap-[63px] absolute top-[39px]">
                 <div className="pl-[310px]">
                     <img
-                        src={`${getStaticURL()}/assets/images/twinkle-left.svg`}
+                        src={`/assets/images/twinkle-left.svg`}
                         alt="Leaf"
                         className=""
                     />
                 </div>
                 <div>
                     <img
-                        src={`${getStaticURL()}/assets/images/leaf-left.svg`}
+                        src={`/assets/images/leaf-left.svg`}
                         alt="Leaf"
                         className=""
                     />
@@ -38,14 +38,14 @@ export const FirstSection = () => {
             <div className="flex flex-col gap-[61px] absolute right-0 top-1">
                 <div>
                     <img
-                        src={`${getStaticURL()}/assets/images/leaf-right.svg`}
+                        src={`/assets/images/leaf-right.svg`}
                         alt="Leaf"
                         className=""
                     />
                 </div>
                 <div className="w-full self-end">
                     <img
-                        src={`${getStaticURL()}/assets/images/twinkle-right.svg`}
+                        src={`/assets/images/twinkle-right.svg`}
                         alt="Leaf"
                         className=""
                     />

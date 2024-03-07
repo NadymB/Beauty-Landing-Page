@@ -26,7 +26,7 @@ export const FourthSection = () => {
       </div>
       <div
         style={{
-          backgroundImage: `url(${getStaticURL()}/assets/images/about.svg)`,
+          backgroundImage: `url(/assets/images/about.svg)`,
           backgroundSize: "cover",
         }}
         className="flex-1 h-[720px]"

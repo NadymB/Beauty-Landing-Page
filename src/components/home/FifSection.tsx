@@ -9,7 +9,7 @@ export const FifSection = () => {
                 {Array.from({ length: 4 }, (_, index) => (
                     <img 
                         key={index}
-                        src={`${getStaticURL()}/assets/images/cocoon.svg`}
+                        src={`/assets/images/cocoon.svg`}
                         alt="Cocoon Brand"
                     />
                 ))}

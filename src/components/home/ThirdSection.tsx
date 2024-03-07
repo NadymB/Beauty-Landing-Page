@@ -9,7 +9,7 @@ export const ThirdSection = () => {
         <div className="flex flex-col gap-10 items-center px-[56px] pb-[75px] pt-[56px] relative">
             <div
                 style={{
-                    backgroundImage: `url(${getStaticURL()}/assets/images/frame-bottom.svg)`,
+                    backgroundImage: `url(/assets/images/frame-bottom.svg)`,
                     backgroundRepeat: "no-repeat"
                 }} 
                 className="absolute -top-[200px] w-[560px] h-[353px]"

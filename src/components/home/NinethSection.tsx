@@ -7,7 +7,7 @@ export const NinethSection = () => {
     <div className="flex items-center bg-pink600" id="advise-free">
       <div
         style={{
-          backgroundImage: `url(${getStaticURL()}/assets/images/advise.svg)`,
+          backgroundImage: `url(/assets/images/advise.svg)`,
           backgroundRepeat: "no-repeat",
         }}
         className="flex-1 h-[563px]"

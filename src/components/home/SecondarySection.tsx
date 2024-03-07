@@ -9,7 +9,7 @@ export const SecondarySection = () => {
         <div className="flex">
             <div className="flex-1 relative z-10">
                 <img
-                    src={`${getStaticURL()}/assets/images/smooth-skin.svg`}
+                    src={`/assets/images/smooth-skin.svg`}
                     alt="Leaf"
                     className="w-[720px]"
                 />
@@ -26,7 +26,7 @@ export const SecondarySection = () => {
             </div>
             <div className="flex-1 relative z-10">
                 <img
-                    src={`${getStaticURL()}/assets/images/skincare-product.svg`}
+                    src={`/assets/images/skincare-product.svg`}
                     alt="Leaf"
                     className="w-[720px]"
                 />

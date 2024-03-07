@@ -8,7 +8,7 @@ export const SeventhSection = () => {
     return (
         <div className="flex gap-6 items-stretch">
             <div 
-                style={{backgroundImage: `url(${getStaticURL()}/assets/images/flowers.svg)`}}
+                style={{backgroundImage: `url(/assets/images/flowers.svg)`}}
                 className="flex-1"
             />
             <div className="flex-1 flex flex-col gap-16 pr-14">
@@ -17,7 +17,7 @@ export const SeventhSection = () => {
                     {Array.from({length: 3}, (_, index) => (
                         <Feedback 
                             key={index}
-                            avatarUrl={`${getStaticURL()}/assets/images/user.svg`}
+                            avatarUrl={`/assets/images/user.svg`}
                             userName="Huỳnh Quốc Khánh"
                             content="Lorem ipsum dolor sit amet consectetur. Enim ipsum ultricies consectetur ullamcorper urna consequat nibh. Hendrerit suspendisse mi libero hendrerit. Risus quisque bibendum et a diam pellentesque pulvinar. Risus nunc sollicitudin interdum diam quam dis at interdum aliquam."
                         />

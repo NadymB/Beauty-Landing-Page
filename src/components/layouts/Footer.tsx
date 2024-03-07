@@ -18,7 +18,7 @@ const Footer = () => {
             href={"/"}
           >
             <img 
-              src={`${getStaticURL()}/assets/images/logo.svg`}
+              src={`/assets/images/logo.svg`}
               alt="Logo"
               className="w-14 h-14"
             />

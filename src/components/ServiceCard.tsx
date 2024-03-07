@@ -15,7 +15,7 @@ export const ServiceCard = ({ imageName, serviceContent, serviceName } : IServic
             className="flex-1 flex flex-col gap-4"
         >
             <img
-                src={`${getStaticURL()}/assets/images/${imageName}`}
+                src={`/assets/images/${imageName}`}
                 alt={serviceName}
                 className="flex-1 max-h-[317px]"
             />

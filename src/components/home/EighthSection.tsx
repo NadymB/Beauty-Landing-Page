@@ -12,7 +12,7 @@ export const EighthSection = () => {
             <div className="grid grid-cols-3 gap-6">
                 <div 
                     style={{
-                        backgroundImage: `url(${getStaticURL()}/assets/images/landing-page-1.svg)`,
+                        backgroundImage: `url(/assets/images/landing-page-1.svg)`,
                         backgroundRepeat: "no-repeat"
                     }}
                     className="h-[428px]"
@@ -22,7 +22,7 @@ export const EighthSection = () => {
                         <div 
                             key={index}
                             style={{
-                                backgroundImage: `url(${getStaticURL()}/assets/images/${item}.svg)`,
+                                backgroundImage: `url(/assets/images/${item}.svg)`,
                                 backgroundRepeat: "no-repeat"
                             }}
                             className="h-[202px]"

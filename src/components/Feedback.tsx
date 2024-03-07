@@ -1,5 +1,4 @@
 import { CommaIcon } from "@/assets/icons/CommaIcon";
-import { getStaticURL } from "@/untils/constants";
 
 interface IFeedback {
     content: string;

@@ -8,7 +8,7 @@ export const SixthSection = () => {
             <div className="relative">
                 <h2 className="font-libreBodoni text-[48px] text-black200 font-bold italic mb-0">Tại Sao Khách Hàng Tin Tưởng Chúng Tôi?</h2>
                 <img 
-                    src={`${getStaticURL()}/assets/images/twinkle-left.svg`}
+                    src={`/assets/images/twinkle-left.svg`}
                     alt="Twinkle"
                     className="absolute -right-[77px] -top-8"
                 />
