@@ -20,7 +20,7 @@ const Header = () => {
           className=""
         />
       </Link>
-      <div className="flex gap-8 text-xl">
+      <div className="flex gap-8 text-[18px]">
         {HEADER_DATA.map((item, index) => (
           <Link 
             key={index}

@@ -7,7 +7,7 @@ export const FourthSection = () => {
     <div className="flex">
       <div className="flex-1 flex flex-col justify-center gap-5 px-14 bg-pink600 text-xl text-red100">
         <span>Về chúng tôi</span>
-        <h2 className="font-libreBodoni font-bold mb-0 text-[48px] text-red100 italic">Chúng Tôi Đặt Vẻ Đẹp Lên Hàng Đầu</h2>
+        <h2 className="font-libreBodoni font-bold mb-0 text-[58px] text-red100 italic">Chúng Tôi Đặt Vẻ Đẹp Lên Hàng Đầu</h2>
         <span>
           Dưới ánh sáng mềm mại của bức ảnh, câu chuyện về chúng tôi bắt đầu
           được kể lại. Chúng tôi là những người yêu thích cái đẹp, tìm kiếm sự

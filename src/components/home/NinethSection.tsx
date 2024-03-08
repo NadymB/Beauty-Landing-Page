@@ -13,7 +13,7 @@ export const NinethSection = () => {
         className="flex-1 h-[563px]"
       />
       <div className="flex-1 px-14">
-        <h2 className="font-libreBodoni text-[48px] text-red100 font-bold italic mb-8">Nhận tư vấn miễn phí</h2>
+        <h2 className="font-libreBodoni text-[46px] text-red100 font-bold italic mb-8">Nhận tư vấn miễn phí</h2>
         <form className="flex flex-col gap-6">
             <input 
                 placeholder="Họ và Tên"

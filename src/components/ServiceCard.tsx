@@ -19,8 +19,8 @@ export const ServiceCard = ({ imageName, serviceContent, serviceName } : IServic
                 alt={serviceName}
                 className="flex-1 max-h-[317px]"
             />
-            <h3 className="font-libreBodoni font-bold text-2xl text-red100 italic text-center mb-0">{serviceName}</h3>
-            <span className="text-xl text-black200 text-center">{serviceContent}</span>
+            <h3 className="font-libreBodoni font-bold text-[22px] text-red100 italic text-center mb-0">{serviceName}</h3>
+            <span className="text-lg text-black200 text-center">{serviceContent}</span>
         </Link>
     )
 }

@@ -6,7 +6,7 @@ export const EighthSection = () => {
     return (
         <div className="flex flex-col gap-8 px-14 pt-[52px] pb-20">
             <div className="flex justify-between">
-                <span className="text-[48px] font-libreBodoni font-bold italic text-black200">@landingage</span>
+                <span className="text-[46px] font-libreBodoni font-bold italic text-black200">@landingage</span>
                 <ButtonPrimary url="/" title="THEO DÕI INSTAGRAM" containerStyle="border border-red200 bg-transparent hover:bg-transparent" prioritizeContainerStyle={{color: "#C2153E"}} leftIcon={<InstagramIcon />}/>
             </div>
             <div className="grid grid-cols-3 gap-6">

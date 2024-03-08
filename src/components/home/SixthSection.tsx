@@ -6,7 +6,7 @@ export const SixthSection = () => {
     return (
         <div className="flex flex-col items-center gap-10 p-14 mt-20 mb-[53px]">
             <div className="relative">
-                <h2 className="font-libreBodoni text-[48px] text-black200 font-bold italic mb-0">Tại Sao Khách Hàng Tin Tưởng Chúng Tôi?</h2>
+                <h2 className="font-libreBodoni text-[46px] text-black200 font-bold italic mb-0">Tại Sao Khách Hàng Tin Tưởng Chúng Tôi?</h2>
                 <img 
                     src={`/assets/images/twinkle-left.svg`}
                     alt="Twinkle"

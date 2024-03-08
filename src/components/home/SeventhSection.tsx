@@ -12,7 +12,7 @@ export const SeventhSection = () => {
                 className="flex-1"
             />
             <div className="flex-1 flex flex-col gap-16 pr-14">
-                <h2 className="font-libreBodoni text-[48px] text-black200 italic mb-0">Phản Hồi Của Khách Hàng</h2>
+                <h2 className="font-libreBodoni text-[46px] text-black200 italic mb-0">Phản Hồi Của Khách Hàng</h2>
                 <div className="flex flex-col gap-6">
                     {Array.from({length: 3}, (_, index) => (
                         <Feedback 

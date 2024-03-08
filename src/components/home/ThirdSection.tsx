@@ -14,7 +14,7 @@ export const ThirdSection = () => {
                 }} 
                 className="absolute -top-[200px] w-[560px] h-[353px]"
             />
-            <h2 className="font-libreBodoni text-[48px] text-black200 text-center italic z-50">Dịch Vụ Của Chúng Tôi</h2>
+            <h2 className="font-libreBodoni text-[46px] text-black200 text-center italic z-50 mb-0">Dịch Vụ Của Chúng Tôi</h2>
             <div className="flex gap-6">
                 {SERVICE_DATA.map((item, index) => (
                     <ServiceCard 

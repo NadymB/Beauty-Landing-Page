@@ -11,7 +11,7 @@ import { ArrowRightIcon } from "@/assets/icons/ArrowRightIcon";
 const Footer = () => {
   
   return (
-    <div className="flex gap-20 py-20 px-14 bg-[#FFE7EB]">
+    <div className="flex gap-20 justify-between py-12 px-14 bg-[#FFE7EB]">
       <div className="flex flex-col gap-6 max-w-[400px]">
         <div className="flex flex-col gap-2">
           <Link
@@ -23,7 +23,7 @@ const Footer = () => {
               className="w-14 h-14"
             />
           </Link>
-          <div className="text-xl text-black200">
+          <div className="text-lg text-black200">
             <strong>Lorem ipsum</strong> dolor sit amet consectetur. Blandit vitae justo nunc urna eget fusce.
           </div>
         </div>
@@ -33,7 +33,7 @@ const Footer = () => {
               <div className="flex w-6">
                 <Icon d={item.d} width={24} color="#222"/>
               </div>
-              <span className="text-xl">{item.label}</span>
+              <span className="text-lg">{item.label}</span>
             </div>
           ))}
         </div>
@@ -41,13 +41,13 @@ const Footer = () => {
       <div className="flex gap-20">
         {FOOTER_DATA.map((footer, index) => (
           <div key={index} className="flex flex-col gap-2">
-            <span className="text-xl font-bold text-black200 text-nowrap">{footer.title}</span>
+            <span className="text-lg font-bold text-black200 text-nowrap">{footer.title}</span>
             <div className="flex flex-col gap-2">
               {footer.itemFooter.map((item, index) => (
                 <Link
                   key={index} 
                   href={item.link}
-                  className="text-xl font-medium text-black200 text-nowrap hover:text-red200"
+                  className="text-lg font-medium text-black200 text-nowrap hover:text-red200"
                 >
                   {item.label}
                 </Link>
@@ -57,7 +57,7 @@ const Footer = () => {
         ))}
       </div>
       <div className="flex flex-col gap-2">
-        <span className="text-xl font-bold text-black200 text-nowrap">Mạng xã hội</span>
+        <span className="text-lg font-bold text-black200 text-nowrap">Mạng xã hội</span>
         <div className="flex gap-2">
           <Link href={"/"}>
             <FacebookIcon />
@@ -68,7 +68,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col gap-4">
-        <span className="font-libreBodoni text-xl font-bold text-black200 italic">
+        <span className="font-libreBodoni text-lg font-bold text-black200 italic max-w-[280px]">
           Đăng ký để nhận thông tin mới sớm nhất từ chúng tôi
         </span>
         <form>

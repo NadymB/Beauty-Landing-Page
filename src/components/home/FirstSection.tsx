@@ -4,15 +4,15 @@ import { getStaticURL } from "@/untils/constants";
 
 export const FirstSection = () => {
     return (
-        <div className="pt-[106px]bg-[#fff7f7] relative">
+        <div className="bg-[#fff7f7] relative">
             <div className="flex flex-col items-center relative">
-                <div className="flex flex-col text-center italic text-[48px] font-libreBodoni font-bold text-black200 mt-[121px] mb-[107px] leading-[120%] z-50">
+                <div className="flex flex-col text-center italic text-[46px] font-libreBodoni font-bold text-black200 mt-[121px] mb-[107px] leading-[120%] z-50">
                     Chúng Tôi Ở Đây 
                     <span className="text-pink600">  
                         Để Giúp Bạn Đẹp Hơn Mỗi Ngày
                     </span>
                 </div>
-                <div className="absolute left-1/2 -translate-x-1/2 top-[71px]">
+                <div className="absolute left-1/2 -translate-x-1/2 top-[64px]">
                     <img
                         src={`/assets/images/frame.svg`}
                         alt="Leaf"

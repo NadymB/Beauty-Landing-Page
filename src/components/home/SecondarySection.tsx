@@ -14,7 +14,7 @@ export const SecondarySection = () => {
                     className="w-[720px]"
                 />
                 <div className="flex flex-col gap-11 absolute top-0 text-[60px] font-semibold pl-[59px] pr-[30px] pt-[319px]">
-                    <h3 className="text-shadow text-[60px] mb-0 font-semibold">
+                    <h3 className="text-shadow text-[56px] mb-0 font-semibold">
                         KHÁM PHÁ BÍ QUYẾT GIÚP DA CỦA BẠN SÁNG MỊN HƠN
                     </h3>
                     <ButtonPrimary
